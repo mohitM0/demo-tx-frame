@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@lens-protocol/client": "^2.3.2",
     "@xmtp/frames-validator": "^0.6.2",
     "dotenv": "^16.4.5",
     "frames.js": "^0.20.0",
