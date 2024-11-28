@@ -2,7 +2,6 @@ import { Abi, encodeFunctionData, parseUnits } from "viem";
 import { frames } from "../frames";
 import { erc20Abi } from "./contracts/erc20-abi";
 import { transaction } from "frames.js/core";
-import { XmtpFrameMessageReturnType } from "frames.js/xmtp";
 import { baseSepolia } from "viem/chains";
 
 export const POST = frames(async (ctx) => {
